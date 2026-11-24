@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gizlilik Politikası / Privacy Policy</title>
+<style>
+:root{color-scheme:light dark;--bg:#fff;--fg:#1c1c1e;--mut:#555;--ac:#0b57d0;--line:#d8d8dc}
+@media(prefers-color-scheme:dark){:root{--bg:#161618;--fg:#ececf0;--mut:#a5a5ad;--ac:#8ab4f8;--line:#3a3a40}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:46rem;margin:0 auto;padding:1.5rem 1rem 4rem}
+nav{display:flex;gap:1rem;padding:.75rem 0;border-bottom:1px solid var(--line);flex-wrap:wrap}
+a{color:var(--ac)}h1{font-size:1.7rem;margin:1.5rem 0 .25rem}h2{font-size:1.2rem;margin:1.8rem 0 .4rem}
+section+section{margin-top:3rem;padding-top:1.5rem;border-top:2px solid var(--line)}
+.mut{color:var(--mut);font-size:.9rem}code{font-size:.85rem;word-break:break-all}
+li{margin:.25rem 0}
+</style>
+</head>
+<body>
+<main>
+<nav><a href="#tr">Türkçe</a><a href="#en">English</a><a href="sartlar.html">Kullanım Şartları / Terms of Use</a></nav>
+
+<section id="tr" lang="tr">
+<h1>Gizlilik Politikası</h1>
+<p class="mut">Yayıncı: Yukleyici · Son güncelleme: 24.11.2026 · İletişim: <a href="mailto:oadambendegilimki@gmail.com">oadambendegilimki@gmail.com</a></p>
+
+<h2>Bu uygulama nedir?</h2>
+<p>"Yükleyici", yayıncının kendi ürettiği videoları kendi YouTube, TikTok ve Instagram hesaplarına, önceden belirlenen gün ve saatte yüklemek için yayıncının kendi bilgisayarında çalışan yerel bir araçtır. Herkese açık bir hizmet değildir; yalnızca yayıncının kendi hesaplarını yönetir.</p>
+
+<h2>Eriştiğimiz veriler (izinler)</h2>
+<p><strong>Google / YouTube</strong></p>
+<ul>
+<li><code>https://www.googleapis.com/auth/youtube.upload</code>: Seçtiğiniz kanala video yüklemek ve yayın zamanını ayarlamak için.</li>
+<li><code>https://www.googleapis.com/auth/youtube.readonly</code>: Yalnızca bağlanan kanalın kimliğini ve adını görüntülemek için.</li>
+</ul>
+<p><strong>TikTok</strong></p>
+<ul>
+<li><code>user.info.basic</code>: Bağlanan hesabın temel profil bilgisini (görünen ad ve hesap kimliği) görmek için.</li>
+<li><code>video.upload</code>: Videoyu hesabın TikTok gelen kutusuna taslak olarak göndermek için.</li>
+</ul>
+<p><strong>Meta / Instagram</strong></p>
+<ul>
+<li><code>instagram_basic</code>: Bağlı Instagram hesabının temel bilgisini görmek için.</li>
+<li><code>instagram_content_publish</code>: Reels videosunu hesaba yayınlamak için.</li>
+<li><code>pages_show_list</code>: Instagram hesabına bağlı Facebook sayfasını bulmak için.</li>
+<li><code>pages_read_engagement</code>: Bağlı sayfanın ve Instagram hesabının kimliğini okumak için.</li>
+<li><code>business_management</code>: Sayfaya bağlı Instagram İşletme hesabına erişmek için.</li>
+</ul>
+<p>Bu izinlerle yalnızca kendi hesabınızın kanal/hesap kimliği ve adı okunur. İzleyici, abone, istatistik veya başka kişilerin verisi toplanmaz.</p>
+
+<h2>Verilerin saklanması</h2>
+<ul>
+<li>Erişim anahtarları (token), yayın zamanlaması, başlık/açıklama ve video dosya yolları <strong>yalnızca sizin bilgisayarınızda</strong> saklanır: yerel bir SQLite veritabanı ve Windows Kimlik Bilgisi Yöneticisi (token'lar).</li>
+<li>Aynı klasörde ayrıca şunlar bulunur: veritabanında hata metinleri ve video dosyalarının SHA-256 özeti (hash); dönen günlük dosyaları <code>veri/yukleyici.log</code> (en fazla 5 x 1 MB; hata iletileri ve video dosya yolları içerebilir, token'lar maskelenir); sizin sağladığınız uygulama kimlik dosyaları (Google <code>client_secret.json</code>, TikTok ve Meta uygulama gizli anahtarı dosyaları). Hepsi yalnızca yerelde kalır.</li>
+<li>Videolarınız yalnızca sizin seçtiğiniz platforma (YouTube, TikTok veya Instagram) gönderilir.</li>
+<li>Hiçbir veri geliştiriciye veya üçüncü taraflara gönderilmez, satılmaz, paylaşılmaz. Analiz, izleme veya reklam aracı yoktur; çerez kullanılmaz.</li>
+<li>Bu sayfalar yalnızca statik metindir; ziyaretçi verisi toplamaz.</li>
+</ul>
+
+<h2>Silme ve erişimi iptal etme</h2>
+<p>Verdiğiniz izni platform tarafında istediğiniz zaman iptal edebilirsiniz:</p>
+<ul>
+<li>Google: <a href="https://myaccount.google.com/permissions">https://myaccount.google.com/permissions</a></li>
+<li>TikTok: TikTok uygulamasında Ayarlar ve gizlilik &gt; Güvenlik &gt; İzinler (menü adları değişebilir).</li>
+<li>Meta / Instagram: <a href="https://www.facebook.com/settings?tab=business_tools">https://www.facebook.com/settings?tab=business_tools</a></li>
+</ul>
+<p>İptal sonrasında uygulama o hesaba artık erişemez. Yerel verileri tamamen silmek için (1) uygulamanın veri klasörünü silin ve (2) Windows Kimlik Bilgisi Yöneticisi > Windows Kimlik Bilgileri bölümünden "yukleyici" ile başlayan kayıtları kaldırın (token'lar orada durur).</p>
+
+<h2>Üçüncü taraf şartları</h2>
+<p>Bu uygulama YouTube API Hizmetleri'ni kullanır. Uygulamayı kullanarak <a href="https://www.youtube.com/t/terms">YouTube Hizmet Şartları</a>'nı ve <a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a>'nı kabul etmiş olursunuz. TikTok ve Meta için sırasıyla <a href="https://www.tiktok.com/legal/terms-of-service">TikTok Hizmet Şartları</a> ve <a href="https://developers.facebook.com/terms">Meta Platform Şartları</a> geçerlidir.</p>
+
+<h2>İletişim</h2>
+<p>Sorularınız için: <a href="mailto:oadambendegilimki@gmail.com">oadambendegilimki@gmail.com</a></p>
+</section>
+
+<section id="en" lang="en">
+<h1>Privacy Policy</h1>
+<p class="mut">Publisher: Yukleyici · Last updated: 24.11.2026 · Contact: <a href="mailto:oadambendegilimki@gmail.com">oadambendegilimki@gmail.com</a></p>
+
+<h2>What this app is</h2>
+<p>"Yükleyici" is a local tool that runs on the publisher's own computer and uploads the publisher's own videos to the publisher's own YouTube, TikTok and Instagram accounts at pre-set dates and times. It is not a public service; it only manages the publisher's own accounts.</p>
+
+<h2>Data we access (permissions)</h2>
+<p><strong>Google / YouTube</strong></p>
+<ul>
+<li><code>https://www.googleapis.com/auth/youtube.upload</code>: to upload videos to the channel you choose and set their publish time.</li>
+<li><code>https://www.googleapis.com/auth/youtube.readonly</code>: only to display the connected channel's ID and name.</li>
+</ul>
+<p><strong>TikTok</strong></p>
+<ul>
+<li><code>user.info.basic</code>: to see basic profile information (display name and account ID) of the connected account.</li>
+<li><code>video.upload</code>: to send the video to the account's TikTok inbox as a draft.</li>
+</ul>
+<p><strong>Meta / Instagram</strong></p>
+<ul>
+<li><code>instagram_basic</code>: to see basic information of the connected Instagram account.</li>
+<li><code>instagram_content_publish</code>: to publish the Reels video to the account.</li>
+<li><code>pages_show_list</code>: to find the Facebook Page linked to the Instagram account.</li>
+<li><code>pages_read_engagement</code>: to read the ID of the linked Page and Instagram account.</li>
+<li><code>business_management</code>: to reach the Instagram Business account linked to the Page.</li>
+</ul>
+<p>With these permissions only your own channel/account ID and name are read. No viewer, subscriber, analytics or other people's data is collected.</p>
+
+<h2>Data storage</h2>
+<ul>
+<li>Access tokens, the publishing schedule, titles/descriptions and video file paths are stored <strong>only on your own computer</strong>: a local SQLite database and the Windows Credential Manager (tokens).</li>
+<li>The same folder also holds: error messages and SHA-256 hashes of video files in the database; rotating log files <code>veri/yukleyici.log</code> (up to 5 x 1 MB; may contain error messages and video file paths, tokens are masked); and the app credential files you provide (Google <code>client_secret.json</code>, TikTok and Meta app secret files). All of it stays local.</li>
+<li>Your videos are sent only to the platform you pick (YouTube, TikTok or Instagram).</li>
+<li>No data is sent to the developer or any third party, and none is sold or shared. There is no analytics, tracking or advertising tool, and no cookies are used.</li>
+<li>These pages are static text and collect no visitor data.</li>
+</ul>
+
+<h2>Deletion and revoking access</h2>
+<p>You can revoke the permission you gave on the platform side at any time:</p>
+<ul>
+<li>Google: <a href="https://myaccount.google.com/permissions">https://myaccount.google.com/permissions</a></li>
+<li>TikTok: in the TikTok app, Settings and privacy &gt; Security &gt; Permissions (menu names may change).</li>
+<li>Meta / Instagram: <a href="https://www.facebook.com/settings?tab=business_tools">https://www.facebook.com/settings?tab=business_tools</a></li>
+</ul>
+<p>After revocation the app can no longer access that account. To delete all local data, (1) delete the app's data folder and (2) remove the entries starting with "yukleyici" in Windows Credential Manager > Windows Credentials (the tokens are kept there).</p>
+
+<h2>Third-party terms</h2>
+<p>This app uses YouTube API Services. By using it you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> and acknowledge the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. For TikTok and Meta, the <a href="https://www.tiktok.com/legal/terms-of-service">TikTok Terms of Service</a> and the <a href="https://developers.facebook.com/terms">Meta Platform Terms</a> apply.</p>
+
+<h2>Contact</h2>
+<p>Questions: <a href="mailto:oadambendegilimki@gmail.com">oadambendegilimki@gmail.com</a></p>
+</section>
+</main>
+</body>
+</html>
